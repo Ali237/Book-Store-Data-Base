@@ -1,2 +1,2 @@
 # SQLite_DB
-Testing SQLite and MongoDB
+A bookstore database using python and sqlite
