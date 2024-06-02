@@ -1,3 +1,8 @@
-# SQLite_DB
-# I need more details on how to use it both the command line and GUI version of the data base
+# This a simple Book store data base this data base has been implemented in both command line iterface and a GUI
+
+
+---
+Tools used: Python, SQLite.
+
+---
 A bookstore database using python and sqlite
