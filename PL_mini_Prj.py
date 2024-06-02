@@ -4,7 +4,7 @@ import re
 from datetime import datetime
 from datetime import date
 import uuid
-from types import NoneType
+#from types import NoneType
 
 
 # Function to connect to the database
