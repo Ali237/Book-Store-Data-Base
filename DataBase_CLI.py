@@ -4,16 +4,16 @@ import re
 from datetime import datetime
 from datetime import date
 import uuid
-from types import NoneType
+
 
 # Function to connect to the database
 def connect_to_database():
-    # lets get started
-    # take the input for data base
-    # db = input('What is your database?')
-    # db = "./" + db + ".db" 
-    # print(db)
-    conn = sqlite3.connect("./bookStore.db")
+    #lets get started
+    #take the input for data base
+    db = input('What is your database?')
+    db = "./" + db + ".db" 
+    print("The data base you enterd is ",db)
+    conn = sqlite3.connect(db)
     return conn
 
 # Function to create database tables
